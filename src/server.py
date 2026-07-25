@@ -7,7 +7,7 @@ Bietet:
 - Vollständig kostenlos, kein API-Key erforderlich
 """
 
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 from src.tools.rss import register_rss_tools
 from src.tools.hackernews import register_hackernews_tools
